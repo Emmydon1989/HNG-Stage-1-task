@@ -1,13 +1,18 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './index.css'
-//import Contact from './Contact'
+import Contact from './Contact'
 import React from "react";
 import New from './New';
 
 
 function App(){
   return(
-    <New />
+    <Router>
+      <Routes>
+        <Route path="/" element={<New />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   )
 }
 export default App;
