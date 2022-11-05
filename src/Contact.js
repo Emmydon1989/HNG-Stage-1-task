@@ -63,9 +63,9 @@ function Contact(){
         </form>
         </div> 
         <footer>
-              <img src='/assets/zuri.PNG' className='logo1'></img>
+              <img src='/assets/zuri.PNG' className='logo1' alt=""></img>
               <div><small>HNG internship 9 Frontend Task</small></div>
-              <img src='/assets/ingressive.png' className='logo2'></img>
+              <img src='/assets/ingressive.png' className='logo2' alt=""></img>
         </footer>
              
        
